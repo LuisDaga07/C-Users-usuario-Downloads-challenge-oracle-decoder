@@ -85,7 +85,7 @@ function desencriptar(texto){
 
 
 botonCopiar.addEventListener("click", function() {
-    inputUsuario.select();
+    respuestaEncriptada.select();
     document.execCommand("copy");
      
 });
